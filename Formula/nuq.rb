@@ -1,10 +1,10 @@
 class Nuq < Formula
   desc "Multi-format frontend to jq"
   homepage "https://github.com/Nuckal777/nuq"
-  url "https://github.com/Nuckal777/nuq/archive/refs/tags/v0.1.2.tar.gz"
+  url "https://github.com/Nuckal777/nuq/archive/refs/tags/v0.1.3.tar.gz"
   head "https://github.com/Nuckal777/nuq.git"
-  version "0.1.2"
-  sha256 "a34c7e8751ce9c108ee5a63d308287d379de4fe81329b614b16db25d4997c316"
+  version "0.1.3"
+  sha256 "a84169d2113ad8b70b1979745c16cf8cd809d38ef85611d936d6fefa6c38336e"
   license "Unlicense"
 
   depends_on "rust" => :build
